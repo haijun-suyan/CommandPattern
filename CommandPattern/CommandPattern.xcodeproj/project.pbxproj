@@ -15,11 +15,11 @@
 		7667288D1E6C500B0018959C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7667288B1E6C500B0018959C /* LaunchScreen.storyboard */; };
 		766728981E6C500B0018959C /* CommandPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728971E6C500B0018959C /* CommandPatternTests.m */; };
 		766728A31E6C500B0018959C /* CommandPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728A21E6C500B0018959C /* CommandPatternUITests.m */; };
-		766728B21E6C50230018959C /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728B11E6C50230018959C /* Receiver.m */; };
-		766728B51E6C50360018959C /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728B41E6C50360018959C /* Invoker.m */; };
-		766728BB1E6C58F20018959C /* DarkerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728BA1E6C58F20018959C /* DarkerCommand.m */; };
-		766728BE1E6C59CD0018959C /* LighterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 766728BD1E6C59CC0018959C /* LighterCommand.m */; };
 		F38F4D0A25D7D3180051A071 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = F38F4D0925D7D3180051A071 /* 12.png */; };
+		F3DD14042AFDF5EE001F01D2 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD13FD2AFDF5EE001F01D2 /* Invoker.m */; };
+		F3DD14052AFDF5EE001F01D2 /* LighterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD14002AFDF5EE001F01D2 /* LighterCommand.m */; };
+		F3DD14062AFDF5EE001F01D2 /* DarkerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD14032AFDF5EE001F01D2 /* DarkerCommand.m */; };
+		F3DD140A2AFDF659001F01D2 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD14082AFDF659001F01D2 /* Receiver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +56,16 @@
 		7667289E1E6C500B0018959C /* CommandPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766728A21E6C500B0018959C /* CommandPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandPatternUITests.m; sourceTree = "<group>"; };
 		766728A41E6C500B0018959C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		766728B01E6C50230018959C /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
-		766728B11E6C50230018959C /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
-		766728B31E6C50360018959C /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
-		766728B41E6C50360018959C /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
-		766728B61E6C50660018959C /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
-		766728B91E6C58F20018959C /* DarkerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkerCommand.h; sourceTree = "<group>"; };
-		766728BA1E6C58F20018959C /* DarkerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkerCommand.m; sourceTree = "<group>"; };
-		766728BC1E6C59CC0018959C /* LighterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LighterCommand.h; sourceTree = "<group>"; };
-		766728BD1E6C59CC0018959C /* LighterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LighterCommand.m; sourceTree = "<group>"; };
 		F38F4D0925D7D3180051A071 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		F3DD13FC2AFDF5EE001F01D2 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		F3DD13FD2AFDF5EE001F01D2 /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		F3DD13FE2AFDF5EE001F01D2 /* CommandProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		F3DD14002AFDF5EE001F01D2 /* LighterCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LighterCommand.m; sourceTree = "<group>"; };
+		F3DD14012AFDF5EE001F01D2 /* DarkerCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkerCommand.h; sourceTree = "<group>"; };
+		F3DD14022AFDF5EE001F01D2 /* LighterCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LighterCommand.h; sourceTree = "<group>"; };
+		F3DD14032AFDF5EE001F01D2 /* DarkerCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkerCommand.m; sourceTree = "<group>"; };
+		F3DD14082AFDF659001F01D2 /* Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		F3DD14092AFDF659001F01D2 /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +121,7 @@
 				766728811E6C500B0018959C /* AppDelegate.m */,
 				766728831E6C500B0018959C /* ViewController.h */,
 				766728841E6C500B0018959C /* ViewController.m */,
-				766728B31E6C50360018959C /* Invoker.h */,
-				766728B41E6C50360018959C /* Invoker.m */,
-				766728B61E6C50660018959C /* CommandProtocol.h */,
-				766728B91E6C58F20018959C /* DarkerCommand.h */,
-				766728BA1E6C58F20018959C /* DarkerCommand.m */,
-				766728BC1E6C59CC0018959C /* LighterCommand.h */,
-				766728BD1E6C59CC0018959C /* LighterCommand.m */,
-				766728B01E6C50230018959C /* Receiver.h */,
-				766728B11E6C50230018959C /* Receiver.m */,
+				F3DD13FA2AFDF5EE001F01D2 /* commandPattern */,
 				766728861E6C500B0018959C /* Main.storyboard */,
 				766728891E6C500B0018959C /* Assets.xcassets */,
 				7667288B1E6C500B0018959C /* LaunchScreen.storyboard */,
@@ -163,6 +155,46 @@
 				766728A41E6C500B0018959C /* Info.plist */,
 			);
 			path = CommandPatternUITests;
+			sourceTree = "<group>";
+		};
+		F3DD13FA2AFDF5EE001F01D2 /* commandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD13FB2AFDF5EE001F01D2 /* Invoker */,
+				F3DD14072AFDF659001F01D2 /* receive */,
+				F3DD13FF2AFDF5EE001F01D2 /* CommandExe */,
+				F3DD13FE2AFDF5EE001F01D2 /* CommandProtocol.h */,
+			);
+			path = commandPattern;
+			sourceTree = "<group>";
+		};
+		F3DD13FB2AFDF5EE001F01D2 /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD13FC2AFDF5EE001F01D2 /* Invoker.h */,
+				F3DD13FD2AFDF5EE001F01D2 /* Invoker.m */,
+			);
+			path = Invoker;
+			sourceTree = "<group>";
+		};
+		F3DD13FF2AFDF5EE001F01D2 /* CommandExe */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD14002AFDF5EE001F01D2 /* LighterCommand.m */,
+				F3DD14012AFDF5EE001F01D2 /* DarkerCommand.h */,
+				F3DD14022AFDF5EE001F01D2 /* LighterCommand.h */,
+				F3DD14032AFDF5EE001F01D2 /* DarkerCommand.m */,
+			);
+			path = CommandExe;
+			sourceTree = "<group>";
+		};
+		F3DD14072AFDF659001F01D2 /* receive */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD14082AFDF659001F01D2 /* Receiver.m */,
+				F3DD14092AFDF659001F01D2 /* Receiver.h */,
+			);
+			path = receive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,13 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DD140A2AFDF659001F01D2 /* Receiver.m in Sources */,
 				766728851E6C500B0018959C /* ViewController.m in Sources */,
 				766728821E6C500B0018959C /* AppDelegate.m in Sources */,
-				766728BB1E6C58F20018959C /* DarkerCommand.m in Sources */,
-				766728BE1E6C59CD0018959C /* LighterCommand.m in Sources */,
-				766728B51E6C50360018959C /* Invoker.m in Sources */,
-				766728B21E6C50230018959C /* Receiver.m in Sources */,
+				F3DD14042AFDF5EE001F01D2 /* Invoker.m in Sources */,
+				F3DD14052AFDF5EE001F01D2 /* LighterCommand.m in Sources */,
 				7667287F1E6C500B0018959C /* main.m in Sources */,
+				F3DD14062AFDF5EE001F01D2 /* DarkerCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
